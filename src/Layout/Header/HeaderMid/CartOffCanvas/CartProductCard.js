@@ -14,9 +14,9 @@ function CartProductCard(props) {
           </div>
           <div className="col-md-8">
             <div className="card-body">
-              <h5 className="card-title">{props.product.productName}</h5>
-              <p className="card-text">Qty. {props.product.productQty}</p>
-              <p className="card-text">Rs. {props.product.productPrize}</p>
+              <b className="  ">{props.product.productName}</b>
+              <p className="card-text m-0">Qty. {props.product.productQty}</p>
+              <p className="card-text m-0">Rs. {props.product.productPrize}</p>
               <button type="button" className="btn btn-secondary btn-sm">
                 Remove
               </button>

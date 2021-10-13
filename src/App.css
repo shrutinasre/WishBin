@@ -53,3 +53,27 @@
 .iconSet:hover {
   border: 2px solid #c2370d;
 }
+
+.w-100p {
+  width: 100%;
+}
+
+.headerBottom .nav-item a {
+  color: #fff;
+  margin-top: 16px;
+}
+
+.headerBottom .nav-item {
+  position: absolute;
+  background-color: #000;
+  padding-left: 40px;
+  padding-right: 40px;
+  top: -10px;
+  bottom: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.headerBottom .navbar-nav {
+  margin-left: 9rem;
+}
