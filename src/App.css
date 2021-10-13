@@ -1,0 +1,55 @@
+.headerTop {
+  height: 30px;
+  font-size: 13px;
+}
+.headerTop a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+.headerTop .dropdown-toggle {
+  font-size: 13px;
+}
+
+.headerTop .seperator {
+  color: #ccc;
+}
+.headerMid {
+  height: 105px;
+}
+.logo {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  text-decoration: none solid rgb(101, 101, 101);
+  word-spacing: 0px;
+}
+.h-100p {
+  height: 100%;
+}
+.headerMid .searchBar .input-group {
+  border: 1px solid #cccccc;
+  border-radius: 50px;
+}
+.headerMid .searchBar .form-control {
+  border: none;
+  width: 275px;
+}
+.headerMid .seperator {
+  color: #ccc;
+}
+.headerMid .input-group button {
+  border-radius: 50px !important;
+}
+.iconSet {
+  border: 2px solid #ffc107;
+  border-radius: 50px;
+}
+.headerMid .cart a {
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+}
+.iconSet:hover {
+  border: 2px solid #c2370d;
+}
