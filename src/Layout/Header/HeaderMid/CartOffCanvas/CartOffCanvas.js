@@ -53,7 +53,7 @@ function CartOffCanvas({ ...props }) {
         </Offcanvas.Header>
         <Offcanvas.Body>
           {prodArray.map((prod, idx) => (
-            <CartProductCard product={prod}></CartProductCard>
+            <CartProductCard key={idx} product={prod}></CartProductCard>
           ))}
         </Offcanvas.Body>
       </Offcanvas>
